@@ -1,0 +1,35 @@
+{
+  "features": [
+    "age",
+    "campaign",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "pdays",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "target": "y",
+  "positive_class": "yes",
+  "dropped": [
+    "duration"
+  ],
+  "model_files": {
+    "Logistic Regression": "lr_pipeline.pkl",
+    "Decision Tree": "dt_pipeline.pkl",
+    "KNN": "knn_pipeline.pkl",
+    "Naive Bayes": "nb_pipeline.pkl",
+    "Support Vector Machine": "svm_pipeline.pkl"
+  }
+}
