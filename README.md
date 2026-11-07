@@ -51,7 +51,7 @@ not seen in training is ignored by the one-hot encoder.
 
 ## c. GitHub repository link
 
-PASTE_GITHUB_LINK_HERE
+https://github.com/2026aj05819/bank-marketing-classifier
 
 ```
 bank-marketing-classifier/
@@ -115,7 +115,7 @@ from `predict_proba()`. The SVM has no probability output, so its AUC uses
 
 ## Streamlit app
 
-Link: PASTE_STREAMLIT_LINK_HERE
+Link: https://bank-marketing-classifier-2026aj05819.streamlit.app/
 
 The app has five sections:
 
